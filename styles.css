@@ -20,7 +20,7 @@ img{
 .home{
     display: flex;
     align-items: center;
-    background-color: rgb(52, 50, 50);
+    background-color: rgb(87, 86, 86);
     border-radius: 10px;
     height: 40px;
 }
@@ -88,7 +88,7 @@ img{
 }
 
 .rightpanel{
-    background: linear-gradient(135deg, rgb(49, 48, 48), black);
+    background: linear-gradient(135deg, rgb(69, 68, 68), black);
     max-width: 4000px;
     padding: 40px;
 }
