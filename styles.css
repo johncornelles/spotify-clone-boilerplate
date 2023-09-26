@@ -1,9 +1,14 @@
-
 *{
     padding: 0;
     font-family: 'Signika', sans-serif;
     color: rgb(212, 216, 221);
     overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 img{
     padding: 10px;
@@ -89,7 +94,7 @@ img{
 
 .rightpanel{
     background: linear-gradient(135deg, rgb(69, 68, 68), black);
-    max-width: 4000px;
+    width: 1300px;
     padding: 40px;
 }
 
@@ -171,6 +176,9 @@ img{
     font-size: 15px;
 }
 
+.marshmallow1{
+    display: none;
+}
 .secondlist{
     margin-bottom: 20px;
 }
@@ -212,6 +220,9 @@ img{
     align-items: center;
 }
 
+.controls{
+    display: none;
+}
 .name h2{
     font-size: 15px;
 }
@@ -219,4 +230,113 @@ img{
 .name h3{
     font-size: smaller;
     color: rgb(168, 167, 167);
+}
+
+.card{
+    display: none;
+}
+.goof{
+    display: none;
+}
+@media (max-width: 426px) {
+    #leftpanel{
+        width: 125px;
+    }
+    .rightpanel{
+        width: 300px;
+    }
+
+    #logo img{
+        margin-top: 25px;
+        margin-left: 10px;
+        height: 20px;
+    }
+    .home{
+        height: 25px;
+        width: 35px;
+        margin-left: 25px;
+        margin-top: 45px;
+        padding: 5px;
+    }
+    .home span, .search span{
+        display: none ;
+    }
+
+    .search, .library{
+        margin-left: 25px;
+        margin-top: 45px;
+    }   
+
+    .library span{
+        display: none;
+    }
+
+    .second, .thirdpart{
+        display: none;
+    }
+    .install{
+        margin-top: 45px;
+        margin-left: 5px;
+    }
+
+    .currentsong{
+        display: none;
+    }
+
+    .heart{
+        display: none;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-top: 65px;
+        align-items: center;    
+    }
+
+    .currentsong{
+        display: none;
+    }
+    .bottom img{
+       visibility: hidden;
+    }
+
+    .firstlist{
+        display: none;
+    }
+
+    .marshmallow{
+        display: none;
+    }
+
+    .marshmallow1{
+        display:inline;
+    }
+
+    .shows{
+        display: none;
+    }
+    .goof{
+        display: inline;
+    }
+
+    .heading h1{
+        font-size: 19   px;
+    }
+
+    .seeall{
+        visibility: hidden;
+    }
+    .goof img{
+        height: 150px;
+    }
+
+    .install img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .install{
+        display: flex;
+        flex-direction: column;
+    }
 }
